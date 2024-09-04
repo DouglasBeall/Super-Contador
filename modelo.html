@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modelo.css">
+    <title> Super Contador </title>
+</head>
+<body>
+    <header>
+        <h1> Contador </h1>
+    </header>
+
+    <section>
+        <p> Início: </p>
+        <input type="number" name = "numInicio" id = "numInicio">
+
+        <p> Fim: </p>
+        <input type="number" name = "numFim"  id = "numFim">
+
+        <p> Passo: </p>
+        <input type="number" name="numPasso" id="numPasso">
+
+        <p> <input type="button" value="Contar" id = "btnContar" onclick = "contar()"> </p>
+
+        <div id = "res">
+            <p> Preparando a contagem... </p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; Douglas Beal
+    </footer>
+
+    <script src="modelo.js"></script>
+</body>
+</html>
